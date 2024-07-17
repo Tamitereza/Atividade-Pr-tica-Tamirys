@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Conheça meu Portifólio</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="Index.html">Página Inicial</a></li>
+            <li><a href="sobre_mim.html">Sobre Mim</a></li>
+            <li><a href="academico.html">Vida Acadêmica</a></li>
+            <li><a href="portifolio.html">Conheça meu Portifólio</a></li>
+            <li><a href="contato.html">Entre em contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        
+        <section class="principal">
+            <h1>
+                Clique no link para acessar o portifolio
+            </h1>
+            <ul>
+                <li><a href="https://www.figma.com/design/FHLafTChUc866xP4EDonEq/PROJETO-FUNDAMENTOS-DE-DESIGN-DE-SISTEMAS?node-id=0-1&t=XYlSpVJzRE6yFIWR-0">Projeto 1</a></li>
+                <li><a href="http://link-projeto2.com">Projeto 2</a></li>
+                <li><a href="http://link-projeto3.com">Projeto 3</a></li>
+            </ul>
+                <img src="" alt="">
+               
+               
+        </section>
+    
+</body>
+
+</html>

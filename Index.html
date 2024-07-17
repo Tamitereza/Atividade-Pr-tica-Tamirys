@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+        .img {
+            padding: 2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .img img {
+            width: 250px;
+            height: 600;
+        }
+
+        @media all and (min-width: 35rem) {
+            body {
+                margin: 50;
+            
+            }
+
+            .img {
+                max-width: 50;
+                margin: 10;
+                
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portifólio Tamirys Altenhofer</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="Index.html">Página Inicial</a></li>
+            <li><a href="sobre_mim.html">Sobre Mim</a></li>
+            <li><a href="academico.html">Vida Acadêmica</a></li>
+            <li><a href="portifolio.html">Conheça meu Portifólio</a></li>
+            <li><a href="contato.html">Entre em contato</a></li>
+        </ul>
+    </nav>
+   
+        </aside>
+        <section class="principal">
+            <h1>
+                Pagina Inicial
+            </h1>
+            <p>É um prazer te ter aqui... Seja bem-vindo ao meu Portifólio Digital</p>
+            <div class="card">
+                <div class="img">
+                    <img src="PAGINA INICIAL.jpeg">
+                </div>
+            </div>        
+            
+        </section>
+    </div>
+
+</body>
+
+</html>

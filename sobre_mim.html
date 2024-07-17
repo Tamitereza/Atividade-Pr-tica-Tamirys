@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506E6A;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;/*centraliza o menu*/
+            gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506E6A 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506E6A;
+            color: white;
+        }
+        .img {
+            padding: 2rem;
+            margin-bottom: 0.8rem;
+        }
+
+        .img img {
+            width: 250px;
+            height: 600;
+        }
+
+        @media all and (min-width: 35rem) {
+            body {
+                margin: 50;
+            
+            }
+
+            .img {
+                max-width: 50;
+                margin: 10;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Sobre Mim</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="Index.html">Página Inicial</a></li>
+            <li><a href="sobre_mim.html">Sobre Mim</a></li>
+            <li><a href="academico.html">Vida Acadêmica</a></li>
+            <li><a href="portifolio.html">Conheça meu Portifólio</a></li>
+            <li><a href="contato.html">Entre em contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        
+        <section class="principal">
+            <h1>
+                Sobre Mim
+            </h1>
+            <p>Prazer! Meu nome é Tamirys, tenho 21 anos e sou estudante de Engenharia de Software pela universidade Uninter.
+                Comecei meus estudos na área de TI em Fevereiro de 2023 depois de ter contato com a criação de banco de dados e
+                e dashboards para analises de indicadores de eficiência, e desde então venho buscando mais cohecimento na área.
+                Sou apaixonada por desenvolvimento e tecnologia e adoro ter contato com pessoas para troca de experiências sobre TI. 
+                
+                Gosto muito de práticar esportes e a dois anos prático a modalidade de Crossfit. O que mais me motiva no esporte
+                é a possibilade de sempre aprender algo novo e do senso de comunidade que existe. Além disso adoro ler
+                e estar com a familía. </p>
+            
+                <img src="SOBRE MIM.png" alt="Sobre MIM">
+               
+                <div class="card">
+                    <div class="img">
+                        <img src="SOBRE MIM.png">
+                    </div>
+                </div>  
+        </section>
+    
+</body>
+
+</html>
+
+
